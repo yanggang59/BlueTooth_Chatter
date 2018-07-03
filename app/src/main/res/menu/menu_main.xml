@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/open_bluetooth"
+        android:title="@string/open_bluetooth"/>
+
+    <item android:id="@+id/close_bluetooth"
+        android:title="@string/close_bluetooth"/>
+
+    <item android:id="@+id/enable_visiblity"
+        android:title="@string/visiblity"/>
+
+
+    <item android:id="@+id/find_device"
+        android:title="@string/find_device"/>
+
+
+    <item android:id="@+id/bonded_device"
+        android:title="@string/bonded_device"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/listening"
+        android:title="@string/waiting"/>
+
+
+    <item android:id="@+id/stop_listening"
+        android:title="@string/stop_waiting"/>
+
+
+    <item android:id="@+id/disconnect"
+        android:title="@string/disconnect"/>
+
+    <item android:id="@+id/clearMSG"
+        android:title="@string/clearMSG"/>
+
+</menu>

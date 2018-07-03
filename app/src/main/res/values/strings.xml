@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DataExchanger</string>
+    <string name="visiblity">设备可见</string>
+    <string name="find_device">查找设备</string>
+    <string name="bonded_device">绑定设备</string>
+    <string name="waiting">等待连接</string>
+    <string name="stop_waiting">停止等待</string>
+    <string name="disconnect">断开连接</string>
+    <string name="send">发送</string>
+    <string name="open_bluetooth">打开蓝牙</string>
+    <string name="close_bluetooth">关闭蓝牙</string>
+    <string name="clearMSG">清空消息</string>
+    <string name="title_activity_connect_to_server">connect_to_server</string>
+    <string name="connect_to_server">连接到远程服务器</string>
+    <string name="title_text">Connect To Server</string>
+    <string name="connect">连接</string>
+</resources>

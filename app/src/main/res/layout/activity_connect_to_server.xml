@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Theme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".connect_to_server">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="@string/title_text" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rowCount="10"
+        app:columnCount="10">
+
+        <TextView
+            android:id="@+id/IP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            app:layout_row="1"
+            app:layout_column="0"
+            app:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/IP_1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="true"
+            android:inputType="numberDecimal"
+            android:text="210"
+            app:layout_column="1"
+            app:layout_columnSpan="1"
+            app:layout_row="1" />
+        <TextView
+            android:id="@+id/dot_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            app:layout_row="1"
+            app:layout_column="2"
+            app:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/IP_2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="51"
+            app:layout_column="3"
+            app:layout_columnSpan="1"
+            app:layout_row="1" />
+        <TextView
+            android:id="@+id/dot_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            app:layout_row="1"
+            app:layout_column="4"
+            app:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/IP_3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="26"
+            app:layout_column="5"
+            app:layout_columnSpan="1"
+            app:layout_row="1" />
+        <TextView
+            android:id="@+id/dot_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            app:layout_row="1"
+            app:layout_column="6"
+            app:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/IP_4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="true"
+            android:inputType="numberDecimal"
+            android:text="138"
+            app:layout_column="7"
+            app:layout_columnSpan="1"
+            app:layout_row="1" />
+        <TextView
+            android:id="@+id/colon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            app:layout_row="1"
+            app:layout_column="8"
+            app:layout_columnSpan="1"/>
+
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="true"
+            android:inputType="numberDecimal"
+            android:text="8080"
+            app:layout_column="9"
+            app:layout_columnSpan="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="connect"
+            android:text="@string/connect"
+            app:layout_column="0"
+            app:layout_columnSpan="10"
+            app:layout_row="6" />
+
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>
