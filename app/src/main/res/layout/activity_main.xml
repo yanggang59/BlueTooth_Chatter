@@ -56,17 +56,16 @@
             <!-- 聊天输入框 -->
             <EditText
                 android:id="@+id/chat_edit"
-                android:layout_width="500dp"
+                android:layout_width="400dp"
                 android:layout_height="match_parent"
                 />
 
-            <Button
-                android:id="@+id/bt_send"
-                android:layout_width="240dp"
-                android:layout_height="100dp"
-                android:text="@string/send"
-                android:layout_gravity="right"
-                />
+                <Button
+                    android:id="@+id/bt_send"
+                    android:layout_width="170dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:text="@string/send" />
 
             </LinearLayout>
             <Button
